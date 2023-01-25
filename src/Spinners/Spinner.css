@@ -1,0 +1,19 @@
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.container-spinner{
+    /* position: absolute;
+    z-index: 1; */
+    height: 100px;
+    width: 100px;
+    border: 10px solid red;
+    border-top: 3px solid green;
+    border-radius: 50%;
+    animation:spinner 1.5s infinite linear
+}
